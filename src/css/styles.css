@@ -121,6 +121,15 @@ main {
   line-height: 23px;
 }
 
+/* FOLLOWERS */
+
+.info .data .follow h3{
+  margin: 20px 0;
+  padding: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
