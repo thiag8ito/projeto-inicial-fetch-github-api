@@ -66,7 +66,7 @@ main {
   margin: 0 auto;
   padding: 10px;
   border-radius: 7px;
-  border: 1px solid grey;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .container header #btn-search {
@@ -76,13 +76,15 @@ main {
   padding: 10px;
   border-radius: 7px;  
   cursor: pointer;
-  border: 1px solid grey;
+  border: none;
+  color: #fff;
+  background-color: #d080ff;
+  transition: ease .2s;
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: #ffffff;
-  border-color: #ffffff;
 }
 
 .container .profile-data{
@@ -106,7 +108,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid var(--cor-primaria);
 }
 
 .container .profile-data .info h1{
@@ -126,8 +128,10 @@ main {
 .info .data .follow h3{
   margin: 20px 0;
   padding: 5px;
-  border: solid 1px;
-  border-radius: 5px;
+  /* border: solid 1px;
+  border-radius: 5px; */
+  font-weight: 600;
+  color: #666768;
 }
 
 /* REPOSITORIES */
@@ -153,8 +157,8 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
-  color: #fff
+  background-color:#94d8ff;
+  color: #252525
 }
 
 .container .profile-data.hide{
